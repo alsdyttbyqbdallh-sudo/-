@@ -13,6 +13,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, onBack }) => {
       <div className="relative bg-black w-full">
         <button
           onClick={onBack}
+          aria-label="العودة إلى قائمة المنتجات"
           className="absolute top-4 right-4 text-white z-10 p-2 rounded-full bg-gray-800 bg-opacity-50 hover:bg-opacity-75 transition duration-300"
         >
           <svg
@@ -22,7 +23,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, onBack }) => {
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l-7 7 7 7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
         <img
