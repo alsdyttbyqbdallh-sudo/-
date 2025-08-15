@@ -1,0 +1,5 @@
+{
+  "name": "Product Catalog Manager",
+  "description": "An application to display and manage a catalog of products, with an administrative edit mode. The interface is in Arabic.",
+  "requestFramePermissions": []
+}
